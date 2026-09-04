@@ -46,3 +46,13 @@ kilitlenmez.
 > **Dikkat:** Bu dosyalar canlı uygulamalar tarafından okunur. `min_supported_version`
 > değerini yükseltmek, o sürümden eski tüm kullanıcılara güncelleme ekranı gösterir.
 > Değiştirmeden önce iki kez düşün.
+
+### Yayılma süresi
+
+GitHub Pages bu dosyaları `Cache-Control: max-age=600` ile sunar — yani bir değişiklik
+cihazlara **10 dakikaya kadar** gecikmeyle ulaşır (commit'in Pages tarafından derlenmesi de
+buna eklenir).
+
+Pratik sonucu: burası anlık bir acil durum düğmesi **değildir**. Yanlışlıkla konulan bir
+güncelleme duvarını kaldırmak da aynı gecikmeye tabidir. Bu yüzden `min_supported_version`
+değişiklikleri aceleyle değil, düşünülerek yapılır.
