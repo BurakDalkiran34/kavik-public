@@ -15,8 +15,23 @@ Play'in zorunlu tuttuğu, herkese açık olması gereken dosyaları barındırı
 | Yol | Ne işe yarar |
 |---|---|
 | `config/dbmeter.json` | DB Meter uzaktan yapılandırması — desteklenen en düşük sürüm ve özellik anahtarları |
+| `config/roadwatch.json` | Rotaİkaz uzaktan yapılandırması |
+| `roadwatch/*.json` | Rotaİkaz veri kümesi — hız koridorları ve sabit kamera listeleri |
+| `roadwatch/yol-limitleri/` | Yol hız limiti **hücreleri** (0,25° ızgara) + `index.json`; uygulama yalnız bulunduğu bölgenin hücrelerini indirir |
 | `privacy/db-meter.html` | DB Meter gizlilik politikası (Türkçe) |
 | `privacy/db-meter.en.html` | DB Meter gizlilik politikası (İngilizce) |
+
+## Rotaİkaz veri kümesi
+
+`roadwatch/` altındaki dosyalar bir veri hattı tarafından üretilir; elle düzenlenmez.
+Kaynaklar: T.C. İçişleri Bakanlığı güzergâh denetim verisi, EGM sabit kamera listesi ve
+OpenStreetMap katkıları (ODbL — OSM kaynaklı dosyalar ayrı tutulur, tek kayıtta
+birleştirilmez).
+
+Yol limitleri tek bir ülke dosyası değil **hücrelere** bölünmüştür: uygulama konumunun
+çevresindeki birkaç hücreyi indirir, böylece hem indirme hem de cihaz belleği bulunulan
+bölge kadar kalır. `yol-limitleri/index.json` hangi hücrenin var olduğunu ve kaç kayıt
+taşıdığını listeler.
 
 ## Uzaktan yapılandırma
 
