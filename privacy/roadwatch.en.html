@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rotaİkaz — Privacy Policy</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.65; color: #1e293b; }
+  h1 { font-size: 1.5rem; } h2 { font-size: 1.1rem; margin-top: 2rem; }
+  a { color: #0369a1; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e2e8f0; font-size: .9rem; color: #64748b; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0f172a; color: #e2e8f0; }
+    a { color: #38bdf8; }
+    footer { border-top-color: #1e293b; color: #94a3b8; }
+  }
+</style>
+</head>
+<body>
+<h1>Rotaİkaz — Privacy Policy</h1>
+<p><strong>Last updated:</strong> 23 September 2026</p>
+
+<h2>Summary</h2>
+<p>Rotaİkaz collects no personal data, creates no account, does not track users and shows no
+ads. Your location is processed on your device and never reaches us.</p>
+
+<h2>Data collected</h2>
+<p>The app collects no personal data and shares none with third parties. No account is
+required. No third-party advertising or analytics SDK is used, and no crash-reporting SDK is
+included.</p>
+
+<h2>Location</h2>
+<p>Your location is used to centre the map on you, to show nearby fixed cameras and
+average-speed enforcement corridors, to compute your current speed, and to time driving alerts
+correctly.</p>
+<p><strong>Your location never leaves your device.</strong> Camera and corridor data is
+downloaded to the device and all distance calculation happens locally; your coordinates are
+never sent to a server or recorded.</p>
+<p><strong>No background location tracking.</strong> The app never requests
+<code>ACCESS_BACKGROUND_LOCATION</code> — that permission is explicitly blocked. Location is
+read only while the app is open, or after you tap "Start driving" while the persistent
+notification is visible. Ending the drive stops location reads.</p>
+
+<h2>Driving notification (foreground service)</h2>
+<p>When you start a drive the app runs a foreground service and shows a persistent
+notification. Its only purpose is to keep voice alerts working when the screen is off or you
+are in another app. The service collects nothing and sends nothing; it stops when you tap
+"End".</p>
+
+<h2>Sign in with Google (optional)</h2>
+<p>You may optionally sign in with your Google account in Settings. If you do, your name and
+email address are stored <strong>only in your device's local storage</strong>; they are not
+sent to any server of ours and no account is created there. Signing out deletes that record
+entirely. Signing in is entirely optional — every feature of the app works without it.</p>
+
+<h2>Favourites and settings</h2>
+<p>Saved places, your vehicle type, alert thresholds, voice and theme settings are kept only on
+your device. They are not uploaded or backed up. Uninstalling the app deletes them.</p>
+
+<h2>Network access and third-party services</h2>
+<p>The app reaches the network in these places:</p>
+<ul>
+  <li><strong>Kavik data host</strong> (<code>burakdalkiran34.github.io</code>) — camera, speed
+  corridor and road speed-limit data packages, plus a remote configuration file. These requests
+  carry no personal data.</li>
+  <li><strong>Google Maps</strong> — map tiles and the traffic layer. Google's own
+  <a href="https://policies.google.com/privacy">privacy policy</a> applies.</li>
+  <li><strong>OSRM</strong> (<code>routing.openstreetmap.de</code>) — start and destination
+  coordinates are sent to compute directions.</li>
+  <li><strong>Photon</strong> (<code>photon.komoot.io</code>) and <strong>Nominatim</strong>
+  (<code>nominatim.openstreetmap.org</code>) — the text you type and your approximate location
+  are sent so results can be ranked by proximity.</li>
+</ul>
+<p>The routing and search services are open services run by the OpenStreetMap community.
+Nothing identifying you is attached to these requests and the app stores none of them. Those
+services' own terms apply.</p>
+
+<h2>Data sources</h2>
+<p>Camera and corridor information is compiled from the Turkish Ministry of Interior's route
+enforcement list, the General Directorate of Security's fixed camera list, and OpenStreetMap
+contributions. These lists are <strong>not exhaustive</strong>; the app's About screen states
+plainly which provinces are covered.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children and does not knowingly collect data from them.</p>
+
+<h2>Disclaimer</h2>
+<p>Rotaİkaz is a driving aid; it does not replace traffic law, road signs or the driver's
+attention. Data may be incomplete or out of date. Road conditions and signage always take
+precedence. Do not interact with the screen while driving.</p>
+
+<h2>Changes to this policy</h2>
+<p>If a feature that collects data or moves data off the device is added (for example cloud
+backup of settings), this page will be updated and the Google Play data safety declaration
+changed accordingly.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:kavikapp@gmail.com">kavikapp@gmail.com</a></p>
+
+<footer>Kavik · <a href="roadwatch.html">Türkçe sürüm</a></footer>
+</body>
+</html>

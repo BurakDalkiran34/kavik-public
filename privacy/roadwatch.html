@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rotaİkaz — Gizlilik Politikası</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.65; color: #1e293b; }
+  h1 { font-size: 1.5rem; } h2 { font-size: 1.1rem; margin-top: 2rem; }
+  a { color: #0369a1; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e2e8f0; font-size: .9rem; color: #64748b; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0f172a; color: #e2e8f0; }
+    a { color: #38bdf8; }
+    footer { border-top-color: #1e293b; color: #94a3b8; }
+  }
+</style>
+</head>
+<body>
+<h1>Rotaİkaz — Gizlilik Politikası</h1>
+<p><strong>Son güncelleme:</strong> 23 Eylül 2026</p>
+
+<h2>Özet</h2>
+<p>Rotaİkaz kişisel veri toplamaz, hesap oluşturmaz, kullanıcı takibi yapmaz ve reklam
+göstermez. Konumun cihazında işlenir ve bize hiç ulaşmaz.</p>
+
+<h2>Toplanan veriler</h2>
+<p>Uygulama kişisel veri toplamaz ve üçüncü taraflarla paylaşmaz. Bir hesap açmanız gerekmez.
+Üçüncü taraf reklam veya analiz aracı kullanılmaz; kilitlenme raporu toplayan bir SDK yoktur.</p>
+
+<h2>Konum</h2>
+<p>Konumunuz; haritayı bulunduğunuz yere odaklamak, yakınınızdaki sabit kameraları ve hız
+koridorlarını göstermek, anlık hızınızı hesaplamak ve sürüş sırasında uyarıları doğru anda
+vermek için kullanılır.</p>
+<p><strong>Konum bilginiz cihazınızdan çıkmaz.</strong> Kamera ve koridor verisi cihaza
+indirilir, mesafe hesabı tamamen cihazda yapılır; koordinatlarınız bir sunucuya gönderilmez
+ve kayıt altına alınmaz.</p>
+<p><strong>Arka planda konum takibi yapılmaz.</strong> Uygulama
+<code>ACCESS_BACKGROUND_LOCATION</code> iznini hiç istemez; bu izin uygulama tarafından açıkça
+engellenmiştir. Konum yalnızca uygulama açıkken, ya da siz "Sürüşe başla" dedikten sonra
+kalıcı bildirim ekranda görünürken okunur. Sürüşü bitirdiğinizde konum okuması durur.</p>
+
+<h2>Sürüş sırasındaki bildirim (ön plan servisi)</h2>
+<p>Sürüş başlattığınızda uygulama bir ön plan servisi çalıştırır ve kalıcı bir bildirim
+gösterir. Bunun tek amacı, telefonun ekranı kapalıyken veya başka bir uygulamadayken sesli
+uyarıların kesilmemesidir. Bu servis veri toplamaz ve dışarı hiçbir şey göndermez; "Bitir"
+dediğinizde kapanır.</p>
+
+<h2>Google ile giriş (isteğe bağlı)</h2>
+<p>Ayarlar bölümünde isterseniz Google hesabınızla giriş yapabilirsiniz. Giriş yaparsanız
+adınız ve e-posta adresiniz <strong>yalnızca cihazınızın kendi depolama alanında</strong>
+saklanır; bizim bir sunucumuza gönderilmez ve orada bir hesap oluşturulmaz. "Çıkış yap"
+dediğinizde bu kayıt tümüyle silinir. Giriş tamamen isteğe bağlıdır — uygulamanın bütün
+özellikleri girişsiz kullanılabilir.</p>
+
+<h2>Favoriler ve ayarlar</h2>
+<p>Kaydettiğiniz yerler, araç tercihiniz, uyarı eşikleri, ses ve tema ayarlarınız yalnızca
+cihazınızda tutulur. Sunucuya gönderilmez, yedeklenmez. Uygulamayı kaldırdığınızda silinir.</p>
+
+<h2>Ağ erişimi ve üçüncü taraf hizmetler</h2>
+<p>Uygulamanın internete çıktığı yerler şunlardır:</p>
+<ul>
+  <li><strong>Kavik veri sunucusu</strong> (<code>burakdalkiran34.github.io</code>) — kamera,
+  hız koridoru ve yol hız limiti veri paketleri ile uzaktan yapılandırma dosyası indirilir.
+  Bu isteklerde kişisel veri gönderilmez.</li>
+  <li><strong>Google Haritalar</strong> — harita karoları ve trafik katmanı. Google'ın kendi
+  <a href="https://policies.google.com/privacy">gizlilik politikası</a> geçerlidir.</li>
+  <li><strong>OSRM</strong> (<code>routing.openstreetmap.de</code>) — yol tarifi hesaplamak
+  için başlangıç ve varış koordinatları gönderilir.</li>
+  <li><strong>Photon</strong> (<code>photon.komoot.io</code>) ve <strong>Nominatim</strong>
+  (<code>nominatim.openstreetmap.org</code>) — adres araması için yazdığınız metin ve sonuçları
+  size yakın sıralamak üzere yaklaşık konumunuz gönderilir.</li>
+</ul>
+<p>Rotalama ve arama hizmetleri OpenStreetMap topluluğuna ait açık servislerdir. Bu isteklere
+kimliğinizle ilişkilendirilebilecek bir bilgi eklenmez; uygulama bu istekleri saklamaz. Söz
+konusu servislerin kendi kullanım koşulları geçerlidir.</p>
+
+<h2>Veri kaynakları</h2>
+<p>Kamera ve hız koridoru bilgileri T.C. İçişleri Bakanlığı'nın güzergâh denetim listesinden,
+Emniyet Genel Müdürlüğü'nün sabit kamera listesinden ve OpenStreetMap katkılarından
+derlenmiştir. Bu listeler <strong>eksiksiz değildir</strong>; hangi illerin kapsandığı
+uygulamanın Hakkında ekranında açıkça yazar.</p>
+
+<h2>Çocuklar</h2>
+<p>Uygulama çocuklara yönelik değildir ve çocuklardan bilerek veri toplamaz.</p>
+
+<h2>Sorumluluk uyarısı</h2>
+<p>Rotaİkaz bir sürüş yardımcısıdır; trafik kurallarının, yol levhalarının veya sürücünün
+dikkatinin yerine geçmez. Veriler eksik veya güncel olmayabilir. Trafikte her zaman yol
+koşulları ve levhalar önceliklidir. Sürüş sırasında ekranla etkileşime girmeyin.</p>
+
+<h2>Bu politikadaki değişiklikler</h2>
+<p>Uygulamaya veri toplayan veya veriyi cihaz dışına taşıyan bir özellik eklenirse (örneğin
+ayarların buluta yedeklenmesi) bu sayfa güncellenir ve Google Play üzerindeki veri güvenliği
+beyanı da buna göre değiştirilir.</p>
+
+<h2>İletişim</h2>
+<p>Sorular için: <a href="mailto:kavikapp@gmail.com">kavikapp@gmail.com</a></p>
+
+<footer>Kavik · <a href="roadwatch.en.html">English version</a></footer>
+</body>
+</html>
