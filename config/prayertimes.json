@@ -1,5 +1,5 @@
 {
-  "min_supported_version": "1.0.6",
+  "min_supported_version": "1.1.0",
   "ads_enabled": false,
   "premium_enabled": false,
   "notice_message": null
