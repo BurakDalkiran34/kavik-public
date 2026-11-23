@@ -1,0 +1,173 @@
+{
+  "surum": 1,
+  "fotolar": [
+    {
+      "id": "kiz-kulesi",
+      "rev": 1,
+      "grup": "turkiye",
+      "gunler": null,
+      "buyuk": {
+        "yol": "foto/kiz-kulesi-1.jpg",
+        "bayt": 167010
+      },
+      "kucuk": {
+        "yol": "foto/kiz-kulesi-1-k.jpg",
+        "bayt": 23254
+      },
+      "durumX": 0.64,
+      "yazi": "ust",
+      "murekkep": "acik",
+      "perde": 0.55,
+      "zemin": "#a6844e",
+      "kaynak": {
+        "baslik": "File:Günbatımı ve Kız Kulesi.jpg",
+        "lisans": "CC0",
+        "sayfa": "https://commons.wikimedia.org/wiki/File:G%C3%BCnbat%C4%B1m%C4%B1_ve_K%C4%B1z_Kulesi.jpg"
+      }
+    },
+    {
+      "id": "sultanahmet-gece",
+      "rev": 1,
+      "grup": "turkiye",
+      "gunler": null,
+      "buyuk": {
+        "yol": "foto/sultanahmet-gece-1.jpg",
+        "bayt": 188594
+      },
+      "kucuk": {
+        "yol": "foto/sultanahmet-gece-1-k.jpg",
+        "bayt": 26027
+      },
+      "durumX": 0.58,
+      "yazi": "ust",
+      "murekkep": "acik",
+      "perde": 0.25,
+      "zemin": "#1c1712",
+      "kaynak": {
+        "baslik": "File:Sultan Ahmet Cami Gece Görünümü 2.jpg",
+        "lisans": "CC0",
+        "sayfa": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmet_Cami_Gece_G%C3%B6r%C3%BCn%C3%BCm%C3%BC_2.jpg"
+      }
+    },
+    {
+      "id": "semsi-pasa",
+      "rev": 1,
+      "grup": "turkiye",
+      "gunler": null,
+      "buyuk": {
+        "yol": "foto/semsi-pasa-1.jpg",
+        "bayt": 252296
+      },
+      "kucuk": {
+        "yol": "foto/semsi-pasa-1-k.jpg",
+        "bayt": 25172
+      },
+      "durumX": 0.24,
+      "yazi": "ust",
+      "murekkep": "acik",
+      "perde": 0.4,
+      "zemin": "#51515f",
+      "kaynak": {
+        "baslik": "File:Sunset and Şemsi Ahmed Paşa Mosque.jpg",
+        "lisans": "CC0",
+        "sayfa": "https://commons.wikimedia.org/wiki/File:Sunset_and_%C5%9Eemsi_Ahmed_Pa%C5%9Fa_Mosque.jpg"
+      }
+    },
+    {
+      "id": "mescid-i-nebevi",
+      "rev": 1,
+      "grup": "kutsal",
+      "gunler": null,
+      "buyuk": {
+        "yol": "foto/mescid-i-nebevi-1.jpg",
+        "bayt": 244714
+      },
+      "kucuk": {
+        "yol": "foto/mescid-i-nebevi-1-k.jpg",
+        "bayt": 23467
+      },
+      "durumX": 1,
+      "yazi": "ust",
+      "murekkep": "acik",
+      "perde": 0.6,
+      "zemin": "#727577",
+      "kaynak": {
+        "baslik": "File:Wide shot of the Green Dome at The Prophet's Mosque (Al Masjid-e-Nabawi).jpg",
+        "lisans": "CC0",
+        "sayfa": "https://commons.wikimedia.org/wiki/File:Wide_shot_of_the_Green_Dome_at_The_Prophet%27s_Mosque_(Al_Masjid-e-Nabawi).jpg"
+      }
+    },
+    {
+      "id": "tarihi-yarimada",
+      "rev": 1,
+      "grup": "turkiye",
+      "gunler": null,
+      "buyuk": {
+        "yol": "foto/tarihi-yarimada-1.jpg",
+        "bayt": 124888
+      },
+      "kucuk": {
+        "yol": "foto/tarihi-yarimada-1-k.jpg",
+        "bayt": 17590
+      },
+      "durumX": 0.5,
+      "yazi": "ust",
+      "murekkep": "acik",
+      "perde": 0.45,
+      "zemin": "#906043",
+      "kaynak": {
+        "baslik": "File:Günbatımı, Sultanahmet 2015-1.jpg",
+        "lisans": "CC0",
+        "sayfa": "https://commons.wikimedia.org/wiki/File:G%C3%BCnbat%C4%B1m%C4%B1,_Sultanahmet_2015-1.jpg"
+      }
+    },
+    {
+      "id": "selimiye",
+      "rev": 1,
+      "grup": "turkiye",
+      "gunler": null,
+      "buyuk": {
+        "yol": "foto/selimiye-1.jpg",
+        "bayt": 252096
+      },
+      "kucuk": {
+        "yol": "foto/selimiye-1-k.jpg",
+        "bayt": 29176
+      },
+      "durumX": 0.64,
+      "yazi": "ust",
+      "murekkep": "acik",
+      "perde": 0.55,
+      "zemin": "#858280",
+      "kaynak": {
+        "baslik": "File:Selimiye Cami, Mimar Sinan'ın Ustalık Eseri 2015.jpg",
+        "lisans": "CC0",
+        "sayfa": "https://commons.wikimedia.org/wiki/File:Selimiye_Cami,_Mimar_Sinan%27%C4%B1n_Ustal%C4%B1k_Eseri_2015.jpg"
+      }
+    },
+    {
+      "id": "sultanahmet-avlu",
+      "rev": 1,
+      "grup": "turkiye",
+      "gunler": null,
+      "buyuk": {
+        "yol": "foto/sultanahmet-avlu-1.jpg",
+        "bayt": 221977
+      },
+      "kucuk": {
+        "yol": "foto/sultanahmet-avlu-1-k.jpg",
+        "bayt": 31018
+      },
+      "durumX": 0.5,
+      "yazi": "ust",
+      "murekkep": "acik",
+      "perde": 0.2,
+      "zemin": "#1c1710",
+      "kaynak": {
+        "baslik": "File:Sultan Ahmet Cami Gece Görünümü.jpg",
+        "lisans": "CC0",
+        "sayfa": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmet_Cami_Gece_G%C3%B6r%C3%BCn%C3%BCm%C3%BC.jpg"
+      }
+    }
+  ]
+}
